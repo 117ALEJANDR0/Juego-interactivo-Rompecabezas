@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.puzzle-container {
+    position: relative;
+    width: 300px; /* Ajusta según el tamaño que desees */
+    height: 300px; /* Ajusta según el tamaño que desees */
+    border: 2px solid #000; /* Para ver claramente el borde */
+    margin-bottom: 20px;
+}
+
+.puzzle-piece {
+    position: absolute;
+    cursor: pointer;
+    transition: left 0.1s, top 0.1s; /* Añade una transición suave al movimiento */
+}
